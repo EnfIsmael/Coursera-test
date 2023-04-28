@@ -1,0 +1,29 @@
+body {
+	color: darkgoldenrod;
+	background: beige;
+}
+#maintittle {
+	color: yellow;
+	text-transform: capitalize;
+	background-color: lightgray;
+	display: inline-block;
+	width: 1000px;	
+	text-align: center;
+	font-size: 4em;
+}
+a:link, a:visited {
+	color: darkgoldenrod;
+	text-decoration: none;
+}
+a:hover, a:active {
+	cursor: pointer;
+	text-decoration: none;
+	background-color: red;
+	color: white;
+}
+
+ul > li:nth-child(odd) {
+	background-color: lightgray;
+	display: inline-block;
+	width: 200px;
+}
